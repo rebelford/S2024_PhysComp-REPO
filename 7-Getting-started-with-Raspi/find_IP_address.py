@@ -1,4 +1,4 @@
-#There is a library that needs to be inported and that statement is commented out, you must uncooment it
+#There is a library that needs to be inported and that statement is commented out, you must uncomment it
 import socket
 #import fcntl
 import struct
