@@ -19,6 +19,7 @@ message['Subject'] = 'A test mail sent by Python. It has an attachment.'
 #The subject line
 #The body and the attachments for the mail
 #set the following line tothe path of the file
+#NOTE: you can write click and copy path from the Raspi File Manager
 attach_file_name = 'PUT PATH AND FILE NAME YOU WANT TO ATTACH HERE'
 message.attach(MIMEText(mail_content, 'plain'))
 attach_file = open(attach_file_name, 'rb') # Open the file as binary mode
