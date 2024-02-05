@@ -1,5 +1,3 @@
-WIP
-
 import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
@@ -40,4 +38,3 @@ server.login(email_user,email_password)
 
 server.sendmail(email_user,email_send,text)
 server.quit()
-WIP
